@@ -9,6 +9,10 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
+from decouple import config
+import os
+
+from dotenv import load_dotenv
 
 from pathlib import Path
 
@@ -21,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-g^6k%bn1^(zpa$o)bc@rtx6e4$1px*nk1t)_ngp+khtp$*pxer"
-
+from decouple import config # или from django.core.management.utils import get_random_secret_key, если используешь django-environ
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -74,9 +78,13 @@ WSGI_APPLICATION = "my_shop.wsgi.application"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('DATABASE_NAME', 'my_shop_db'),  # Значение по умолчанию
+        'USER': os.getenv('DATABASE_USER', 'postgres'),    # Значение по умолчанию
+        'PASSWORD': os.getenv('DATABASE_PASSWORD', 'yourpassword'),  # Значение по умолчанию
+        'HOST': os.getenv('DATABASE_HOST', 'localhost'),   # Значение по умолчанию
+        'PORT': os.getenv('DATABASE_PORT', '5432'),        # Значение по умолчанию
     }
 }
 
@@ -121,3 +129,8 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+import os
+print("DB ENGINE:", os.getenv('DB_ENGINE')) # Если используешь env
+# или просто
+print("DATABASES:", DATABASES)
