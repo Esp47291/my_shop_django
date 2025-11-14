@@ -5,19 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3506fd72-44eb-43d5-9a59-facfe26a68ce" name="Changes" comment="hw_lesson_22_3">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/management/commands/fill_products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,12 +67,19 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "#1 on hw__lesson__22",
     "last_opened_file_path": "C:/Users/User/PycharmProjects/my_shop_django",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
         <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
       </set>
     </attachedChunks>
@@ -71,6 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762772621032</updated>
+      <workItem from="1763122822480" duration="5141000" />
     </task>
     <task id="LOCAL-00001" summary="hw_lesson_22_2">
       <option name="closed" value="true" />
@@ -90,6 +111,9 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

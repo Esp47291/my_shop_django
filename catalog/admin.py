@@ -1,17 +1,16 @@
-# library/admin.py
+# catalog/admin.py
 from django.contrib import admin
-from .models import Author, Book
+from .models import Category, Product
 
-@admin.register(Author)
-class AuthorAdmin(admin.ModelAdmin):
-    list_display = ('last_name', 'first_name', 'birth_date') # Поля для отображения в списке
-    list_filter = ('birth_date',) # Фильтрация по дате рождения
-    search_fields = ('first_name', 'last_name') # Поиск по имени и фамилии
-    ordering = ['last_name'] # Сортировка по умолчанию
+@admin.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name')
+    list_display_links = ('id', 'name')
+    search_fields = ('name', 'description')
 
-@admin.register(Book)
-class BookAdmin(admin.ModelAdmin):
-    list_display = ('title', 'author', 'publication_date') # Поля для отображения в списке
-    list_filter = ('author', 'publication_date') # Фильтрация по автору и дате
-    search_fields = ('title', 'author__last_name') # Поиск по названию и фамилии автора
-    ordering = ['title'] # Сортировка по умолчанию
+@admin.register(Product)
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'purchase_price', 'category', 'created_at')
+    list_filter = ('category',)
+    search_fields = ('name', 'description')
+    list_editable = ('purchase_price',)
