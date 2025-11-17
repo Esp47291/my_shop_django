@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3506fd72-44eb-43d5-9a59-facfe26a68ce" name="Changes" comment="Complete Django ORM homework">
+    <list default="true" id="3506fd72-44eb-43d5-9a59-facfe26a68ce" name="Changes" comment="Complete Django ORM homework 2">
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/product_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1762772621032</updated>
       <workItem from="1763122822480" duration="5457000" />
-      <workItem from="1763380212645" duration="993000" />
+      <workItem from="1763380212645" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="hw_lesson_22_2">
       <option name="closed" value="true" />
@@ -120,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763130054574</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Complete Django ORM homework 2">
+      <option name="closed" value="true" />
+      <created>1763381315049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763381315049</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +170,7 @@
     <MESSAGE value="hw_lesson_22_2" />
     <MESSAGE value="hw_lesson_22_3" />
     <MESSAGE value="Complete Django ORM homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Django ORM homework" />
+    <MESSAGE value="Complete Django ORM homework 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Django ORM homework 2" />
   </component>
 </project>
