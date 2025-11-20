@@ -23,12 +23,8 @@
             </ul>
 
             <div class="navbar-text">
-                {% if user.is_authenticated %}
-                    <span class="text-light">Привет, {{ user.username }}!</span>
-                    <a href="{% url 'blog:blogpost_create' %}" class="btn btn-sm btn-outline-light ms-2">✏️ Написать</a>
-                {% else %}
-                    <span class="text-light">Добро пожаловать!</span>
-                {% endif %}
+                <!-- Убираем проверку авторизации и кнопку "Написать" из шапки -->
+                <span class="text-light">Добро пожаловать в наш магазин!</span>
             </div>
         </div>
     </div>

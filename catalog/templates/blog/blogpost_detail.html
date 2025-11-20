@@ -33,10 +33,9 @@
 
             <div class="mt-4">
                 <a href="{% url 'blog:blogpost_list' %}" class="btn btn-secondary">← Назад к списку</a>
-                {% if user.is_authenticated %}
+                <!-- Убираем проверку авторизации -->
                 <a href="{% url 'blog:blogpost_edit' blogpost.pk %}" class="btn btn-primary">Редактировать</a>
                 <a href="{% url 'blog:blogpost_delete' blogpost.pk %}" class="btn btn-danger">Удалить</a>
-                {% endif %}
             </div>
         </article>
     </div>
